@@ -1,0 +1,144 @@
+body {
+  background: #272727;
+}
+
+.block {
+  width: 844px;
+  margin: 0 auto;
+}
+.cover {
+  background-image: url('/background/epic.jpg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: 1440px auto;
+  -webkit-box-shadow: inset 0px -100px 150px 40px rgba(39,39,39,1);
+  -moz-box-shadow: inset 0px -100px 150px 40px rgba(39,39,39,1);
+  box-shadow: inset 0px -100px 150px 40px rgba(39,39,39,1);
+}
+/*header*/
+.header {
+  background: linear-gradient(180deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%);
+}
+.header > div {
+  display: flex;
+}
+.header > div {
+  height: 100px;
+}
+.header > .wrapper {
+  align-items: center;
+  align-content: center;
+}
+.headerLogoBlock {
+  flex-grow: 0;
+  display: flex;
+}
+.headerLogo {
+  width: 54px;
+  height: 54px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.headerMenu {
+  flex-grow: 1;
+  height: 40px;
+}
+.headerTitle {
+  height: 54px;
+  margin-left: 10px;
+  color: #fff;
+}
+.headerTitle > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.headerMenuList > ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+  height: 40px;
+}
+.headerMenuList > ul > li {
+  list-style-type: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 2px 0 2px 59px;
+  color: #fff;
+}
+/*endof header*/
+/*content*/
+.contentHeader {
+  margin-top: 150px;
+}
+.contentHeader > div {
+  color: #FFFFFF;
+}
+.contentTitle {
+  font-size: 64px;
+}
+.contentDescription {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 15px 0;
+}
+.contentItselfWrapper {
+  margin: 10px -17px 17px -17px;
+  padding: 17px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.contentItselfWrapper > div {
+  /*font-size: 0;*/
+}
+.contentItself > iframe {
+  width: 100%;
+}
+.contentInlineTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-top: 1.5em;
+  padding-bottom: 0.8em;
+}
+.contentInlineFlex {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.contentComments {
+  margin-top: 20px;
+}
+/*endof content*/
+/*footer*/
+.footer {
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+.footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.footerMenu {
+  display: flex;
+}
+.footer > .wrapper > div {
+  color: #999999;
+}
+.footerMenu > li {
+  font-size: 14px;
+  padding-right: 6px;
+}
+/*endof footer*/

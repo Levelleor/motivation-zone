@@ -1,0 +1,23 @@
+{
+  "name": "motivation-zone",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "disqus-react": "^1.0.9",
+    "gatsby": "^2.21.9",
+    "gatsby-cli": "^2.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
